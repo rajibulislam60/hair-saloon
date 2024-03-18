@@ -226,9 +226,10 @@ background: #3b3a3a;
     position: absolute;
     top: 234px;
 }
-
+/* ================product css=============== */
 #products{
     padding: 150px 0;
+    background: #FBFBFA;
 }
 .products__title{
     display: flex;
@@ -288,3 +289,34 @@ a {
   .details__p{
     
   }
+
+  /* ===========team css============== */
+  #team{
+    padding: 100px 0;
+  }
+  .team__text__area{
+    position: relative;
+    margin-left: 100px;
+  }
+  .team__text__area h2{
+    font-size: 48px;
+    font-weight: 800;
+    color: #363024;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .team__text__area p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #524D43;
+    max-width: 470px;
+    margin-bottom: 20px;
+  }
+  .team__text__img{
+    position: absolute;
+    left: -200px;
+    top: 340px;
+  }
+  /* ===============testimonial css============== */
+  
